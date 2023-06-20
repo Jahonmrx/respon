@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #272d38;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  padding: 10px 31px;
+  background-color: #8eadd5;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+.navbar {
+  width: 1076px;
+  margin: 0 auto;
+  margin-bottom: 95px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+.Nright {
+  display: flex;
+  align-items: center;
+}
+.Nright i {
+  display: none;
+  font-size: 20px;
+}
+.Nright ul {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+}
+.Nright li a {
+  font-weight: 400;
+  font-size: 18px;
+}
+.logo a {
+  font-weight: 700;
+  font-size: 20px;
+}
+header {
+  margin-bottom: 157px;
+}
+
+/*build*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  width: 1065px;
+  margin: 0 auto;
+}
+
+.build .container {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 24px;
+  max-width: 540px;
+}
+.Bright img {
+  width: 100%;
+}
+.Bleft p {
+  font-weight: 400;
+  font-size: 19px;
+  margin-bottom: 39px;
+  max-width: 525px;
+}
+
+/*companies*/
+
+.companies {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 136px;
+}
+.Cyozuv {
+  margin-bottom: 16px;
+}
+.Cyozuv p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #667085;
+}
+.logos {
+  display: flex;
+  gap: 115px;
+  background-color: #f6f6f6;
+  padding: 22px 24px;
+  border-radius: 8px;
+}
+.logos .Lrasm {
+  width: 100%;
+}
+
+/*design*/
+
+.design {
+  display: flex;
+  flex-direction: column;
+  gap: 136px;
+  margin-bottom: 120px;
+}
+.dizayn,
+.costume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.design h2 {
+  max-width: 435.69px;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 25.55px;
+}
+.design p {
+  max-width: 392px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+.Dleft img {
+  width: 100%;
+}
+.Cright img {
+  width: 100%;
+}
+
+/*testimons*/
+
+.testimons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 136px;
+}
+.tyozuv {
+  text-align: center;
+  margin-bottom: 38.65px;
+}
+.tyozuv p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.tyozuv h2 {
+  max-width: 435.69px;
+  font-weight: 700;
+  font-size: 48px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.card {
+  max-width: 345px;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  text-align: center;
+  padding: 32px 35px;
+  padding-bottom: 40px;
+}
+
+.card h2 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+.card p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/*support*/
+
+.support {
+  margin-bottom: 138px;
+}
+.support {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+}
+.Sright h2 {
+  max-width: 361px;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.Sright p {
+  max-width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.Sleft img {
+  width: 100%;
+}
+
+/*footer*/
+
+footer {
+  background-color: #f6f6f6;
+}
+.tepa {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 92px;
+  padding-top: 105px;
+}
+.tepa .ustun:nth-child(1) {
+  width: 189.29px;
+}
+.tepa .ustun:nth-child(1) h2 {
+  margin-bottom: 32px;
+}
+.ustun h2 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.ustun a {
+  font-weight: 300;
+  font-size: 16px;
+}
+.ustun li {
+  margin-top: 24px;
+}
+.past {
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+@media screen and (max-width: 1093px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  header {
+    margin-bottom: 120px;
+  }
+  .logo a {
+    font-size: 14px;
+  }
+  button {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
+  .Nright ul {
+    display: none;
+  }
+  .Nright i {
+    display: inline-block;
+  }
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+  .build .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  h1 {
+    font-size: 39px;
+    max-width: 378px;
+  }
+  .Bleft p {
+    margin-bottom: 24px;
+    font-size: 16px;
+    max-width: 378px;
+  }
+  .logos {
+    gap: 29px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logos img {
+    width: 90%;
+  }
+  .companies {
+    margin-bottom: 88px;
+  }
+  .design {
+    gap: 120px;
+  }
+  .dizayn {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .costume {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .design h2 {
+    font-size: 32px;
+    max-width: 380px;
+  }
+  .design p {
+    font-size: 14px;
+    max-width: 380px;
+  }
+  .design i {
+    transform: rotate(90deg);
+  }
+  .design img {
+    max-width: 375px;
+  }
+  .testimons {
+    margin-bottom: 120px;
+  }
+  .tyozuv {
+    margin-bottom: 16px;
+  }
+  .tyozuv p {
+    font-size: 12px;
+  }
+  .tyozuv h2 {
+    max-width: 380px;
+    font-size: 32px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .cards .card:nth-child(1){
+    padding: 32px 45px 32px 48px ;
+  }
+  .card{
+    padding: 32px 35.15px 32px  ;
+  }
+  .card img {
+    margin-bottom: 8px;
+  }
+  .Sright h2 {
+    font-size: 32px;
+  }
+  .Sright p {
+    font-size: 16px;
+  }
+  .Sleft {
+    display: none;
+  }
+  .support {
+    text-align: center;
+    padding: 55px 35px;
+    margin-bottom: 128px;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .tepa {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    text-align: center;
+  }
+  .past {
+    font-size: 16px;
+  }
+}
